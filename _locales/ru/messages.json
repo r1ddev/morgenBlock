@@ -1,0 +1,37 @@
+{
+	"appName": {
+		"message": "morgenBlock",
+		"description": "The title of the application, displayed in the web store."
+	},
+	"appDesc": {
+		"message": "This app does something awesome.", 
+		"description":"The description of the application, displayed in the web store."
+	},
+	"locale": {
+		"message": "ru"
+	},
+	"enableBlockButton": {
+		"message": "Блокируем Моргенштерна"
+	},
+	"disableBlockButton": {
+		"message": "Перестать блокировать"
+	},
+	"refDescText": {
+		"message": "Поделись с друзьями реферальной ссылкой и разблокируй возможность блокировать новости об Ольге Бузовой, либо введи реферальный код твоего друга."
+	},
+	"refcodeDescText": {
+		"message": "Твой реферальный код:"
+	},
+	"inputRefcodePlaceholder": {
+		"message": "Введите сюда код друга"
+	},
+	"refcodeSubmitButton": {
+		"message": "подтвердить"
+	},
+	"refDescTextPro": {
+		"message": "Поделись с друзьями реферальной ссылкой, чтобы у них была возможность блокировать новости об Ольге Бузовой."
+	},
+	"refcodeDescTextPro": {
+		"message": "Твой реферальный код:"
+	}
+}

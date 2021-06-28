@@ -1,0 +1,39 @@
+{
+	"manifest_version": 2,
+	"name": "Стиратель Моргенштерна",
+	"version": "1.0.1",
+	"description": "Стиратель Моргенштерна",
+	"short_name": "morgenBlock",
+	"permissions": [
+		"storage"
+	],
+	"browser_action": {
+		"default_title": "Стиратель Моргенштерна",
+		"default_icon": "128.png",
+		"default_popup": "index.html"
+	},
+	"icons": {
+		"48": "48.png",
+		"128": "128.png"
+	},
+	"background": {
+		"scripts": [
+			"jquery.js",
+			"js.js",
+			"background.js"
+		]
+	},
+	"content_scripts": [
+		{
+			"all_frames": true,
+			"js": [
+				"jquery.js",
+				"injected.js"
+			],
+			"matches": [
+				"*://*/*"
+			]
+		}
+	],
+	"default_locale": "ru"
+}

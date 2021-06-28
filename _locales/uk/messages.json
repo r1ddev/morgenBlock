@@ -1,0 +1,37 @@
+{
+	"appName": {
+		"message": "morgenBlock",
+		"description": "The title of the application, displayed in the web store."
+	},
+	"appDesc": {
+		"message": "This app does something awesome.", 
+		"description":"The description of the application, displayed in the web store."
+	},
+	"locale": {
+		"message": "uk"
+	},
+	"enableBlockButton": {
+		"message": "Блокуємо Моргенштерна"
+	},
+	"disableBlockButton": {
+		"message": "Перестати блокувати"
+	},
+	"refDescText": {
+		"message": "Поділися з друзями реферальной посиланням і розблоковуй можливість блокувати новини про Ольгу Бузової, або введи реферальний код твого друга."
+	},
+	"refcodeDescText": {
+		"message": "Твій реферальний код:"
+	},
+	"inputRefcodePlaceholder": {
+		"message": "Введіть сюди код друга"
+	},
+	"refcodeSubmitButton": {
+		"message": "Підтвердити"
+	},
+	"refDescTextPro": {
+		"message": "Поділися з друзями реферальной посиланням, щоб у них була можливість блокувати новини про Ольгу Бузової"
+	},
+	"refcodeDescTextPro": {
+		"message": "Твій реферальний код:"
+	}
+}

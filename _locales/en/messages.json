@@ -1,0 +1,37 @@
+{
+	"appName": {
+		"message": "morgenBlock",
+		"description": "The title of the application, displayed in the web store."
+	},
+	"appDesc": {
+		"message": "This app does something awesome.", 
+		"description":"The description of the application, displayed in the web store."
+	},
+	"locale": {
+		"message": "en"
+	},
+	"enableBlockButton": {
+		"message": "Block Morgenstern"
+	},
+	"disableBlockButton": {
+		"message": "Unblock Morgenstern"
+	},
+	"refDescText": {
+		"message": "Share your referral code with your friends and unlock the ability to block any words, or enter your friend's referral link."
+	},
+	"refcodeDescText": {
+		"message": "Your referral code"
+	},
+	"inputRefcodePlaceholder": {
+		"message": "Еnter friend code here"
+	},
+	"refcodeSubmitButton": {
+		"message": "confirm"
+	},
+	"refDescTextPro": {
+		"message": "Share a referral link with your friends so they can block news about Olga Buzova."
+	},
+	"refcodeDescTextPro": {
+		"message": "Your referral code"
+	}
+}
