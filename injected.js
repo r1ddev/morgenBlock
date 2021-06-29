@@ -58,13 +58,13 @@ function blockThemALL () {
 							let isContainsWord = false
 							let wordsBlock = storage.blockList
 
-							console.log(t);
+							// console.log(t);
 
 							for (let index = 0; index < wordsBlock.length; index++) {
 								const wordBlock = wordsBlock[index];
 
-								console.log(wordBlock.toLowerCase());
-								console.log(~t.indexOf(wordBlock.toLowerCase()));
+								// console.log(wordBlock.toLowerCase());
+								// console.log(~t.indexOf(wordBlock.toLowerCase()));
 
 								if (~t.indexOf(wordBlock.toLowerCase())) {
 									isContainsWord = true
