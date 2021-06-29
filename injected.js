@@ -42,6 +42,7 @@ function blockThemALL () {
 	chrome.storage.sync.get("enable", function (storageEnable) {
 		if (!storageEnable.hasOwnProperty('enable') || storageEnable.enable) {
 			chrome.storage.sync.get("blockList", function (storage) {
+				let wordsBlock = storage.blockList
 				
 				chrome.storage.sync.get("memesList", function (memesListStorage) {
 					var memesList = memesListStorage.memesList			
@@ -56,7 +57,7 @@ function blockThemALL () {
 						.filter(function () {
 							let t = this.nodeValue.toLowerCase()
 							let isContainsWord = false
-							let wordsBlock = storage.blockList
+							
 
 							// console.log(t);
 
@@ -100,7 +101,7 @@ function blockThemALL () {
 											v.textContent = memesList[Math.floor(Math.random() * memesList.length)]
 										}
 									} catch (e) {
-										console.log(e);
+										//console.log(e);
 									}
 								}
 							}
